@@ -1,0 +1,151 @@
+/*
+Theme Name: Real Estate Growmodo
+Theme URI: https://example.com/real-estate-growmodo
+Author: Valdir Junior
+Author URI: https://example.com
+Description: Tema leve, rápido e compatível com Elementor, ideal para sites imobiliários. Suporte a WooCommerce, Yoast, Contact Form 7 e mais.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: real-estate-growmodo
+Tags: one-column, two-columns, custom-logo, custom-menu, featured-images, full-width-template, theme-options, translation-ready
+
+Requires at least: 5.0
+Tested up to: 6.5
+Requires PHP: 7.4
+*/
+
+ @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Urbanist', sans-serif;
+	font-size: 18px;
+	color:#fff;
+	background-color:#141414;
+	margin:0px
+}
+h1{
+	font-size: 60px !important;
+}
+
+.botao-roxo{
+	background: #703BF7;
+	border-radius: 10px;
+	width: fit-content;
+}
+.botao-cinza{
+	background-color:#141414;
+	border: solid 1px #262626;
+	border-radius: 10px;
+	width: fit-content;
+}
+
+a.elementor-button.elementor-button-link{
+    border-radius: 10px;
+}
+
+.sub-header{
+	height: 63px;
+}
+
+a{
+	color: #fff ;
+}
+.sub-header a{
+	padding-left:10px;
+}
+
+.header{
+	background-color:#1A1A1A;
+}
+.header .menu-item a{
+	color: #fff ;
+	padding:14px 24px;
+	font-size: 18px;
+}
+
+.header .menu-item a:hover{
+	border:1px solid #262626;
+	border-radius:10px;
+}
+.box p{
+	margin:0px !important;
+}
+
+.box{
+	border: 1px solid #262626;
+}
+
+.texto-cinza{
+	color:#999999;
+}
+.elementor-button {
+    background: unset;
+}
+
+.card-imovel {
+    background: #1b1b1b;
+    border-radius: 8px;
+    padding: 20px;
+    color: white;
+    text-align: left;
+}
+.card-imovel img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.card-imovel h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+.card-imovel .info-icons {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.card-imovel .preco {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.card-imovel .botao-detalhes {
+    background: #8257e5;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.carrossel-imoveis {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.carrossel-imoveis .swiper-wrapper {
+    display: flex;
+}
+
+.carrossel-imoveis .swiper-slide {
+    width: 300px !important;
+    flex-shrink: 0;
+}
+.wpforms-field-container input,.wpforms-field-container textarea {
+    border-radius: 8px;
+    padding: 24px 20px;
+    margin-top: 15px;
+    min-width: 100% !important;
+    background: #1a1a1a;
+    border: 1px solid #262626;
+	color: #fff;
+}
+.wpforms-field-container input[type="checkbox"] {
+    min-width: unset !important;
+}
+button#wpforms-submit-1235 {
+    color: #fff;
+    padding: 18px 46px;
+    font-size: 18px;
+    border: unset;
+}
